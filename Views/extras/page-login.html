@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>LogIn</title>
+
+    <!-- ================= Favicon ================== -->
+    <!-- Standard -->
+    <link rel="shortcut icon" href="http://placehold.it/64.png/000/fff">
+    <!-- Retina iPad Touch Icon-->
+    <link rel="apple-touch-icon" sizes="144x144" href="http://placehold.it/144.png/000/fff">
+    <!-- Retina iPhone Touch Icon-->
+    <link rel="apple-touch-icon" sizes="114x114" href="http://placehold.it/114.png/000/fff">
+    <!-- Standard iPad Touch Icon-->
+    <link rel="apple-touch-icon" sizes="72x72" href="http://placehold.it/72.png/000/fff">
+    <!-- Standard iPhone Touch Icon-->
+    <link rel="apple-touch-icon" sizes="57x57" href="http://placehold.it/57.png/000/fff">
+
+    <!-- Styles -->
+    <link href="../dashboard/css/lib/font-awesome.min.css" rel="stylesheet">
+    <link href="../dashboard/css/lib/themify-icons.css" rel="stylesheet">
+    <link href="../dashboard/css/lib/bootstrap.min.css" rel="stylesheet">
+    <link href="../dashboard/css/lib/helper.css" rel="stylesheet">
+    <link href="../dashboard/css/style.css" rel="stylesheet">
+</head>
+<style>
+   
+     .container-fluid{
+     background-color: #77dd77;
+     
+     }
+     .login-form{
+         background-color: #55635300;
+     }
+     .login-content{
+         background-color: #4a5c49b2;
+     }
+ 
+     body{
+         background-color: #a5eea0;
+     }
+     </style>
+     <style type="text/css">
+         h3{
+             color:#fff;
+         }
+ 
+         h6{
+             color:#fff;
+         }
+         </style>
+<body style="background-size: cover; background-image:url(../../Views/client-side/images/slider-main/bg3.jpg)">
+    <div class="unix-login">
+        <div class="container-fluid" style="background-size: cover; background-image:url(../../Views/client-side/images/slider-main/bg3.jpg)">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="login-content" >
+                        <div class="login-logo" >
+                            
+                            <a href="../../index.html"><span> <div class="ts-facts-img">
+                                <img loading="lazy" src="../../Views/client-side/images/favicon.png" alt="facts-img">
+                              </div></span></a>
+                        </div>
+                        <div class="login-form">
+                            <h4 style="color: #fff;">Inicio de Sesión</h4>
+                            <form action="../../Controllers/iniciarSesion.php" method="post">
+                                <div class="form-group">
+                                    <label style="color: #fff;">Correo</label>
+                                    <input type="email" name="email" class="form-control" placeholder="Correo">
+                                </div>
+                                <div class="form-group">
+                                    <label style="color: #fff;">Contraseña</label>
+                                    <input type="password" name="contrasena" class="form-control" placeholder="*******">
+                                </div>
+                                <a href="../extras/page-reset-password.html">¿Olvidaste tu contraseña?</a>
+									</label>
+                                
+                                <button type="submit" class="btn btn-primary btn-flat m-b-30 m-t-30">Ingresar</button>
+                               
+                                <div class="register-link m-t-15 text-center">
+                                    <p style="color: #fff;">¿No tienes una cuenta?<a href="page-register.html" style="color: #ffb600;"> Regístrate aquí.</a></p>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
